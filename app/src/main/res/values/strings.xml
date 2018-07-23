@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MenuImplementation</string>
+    <string name="textInfo"> Interface for managing the items in a menu.
+
+By default, every Activity supports an options menu of actions or options. You can add items to this menu and handle clicks on your additions. The easiest way of adding menu items is inflating an XML file into the Menu via MenuInflater. The easiest way of attaching code to clicks is via Activity.onOptionsItemSelected(MenuItem) and Activity.onContextItemSelected(MenuItem).
+
+Different menu types support different features:
+
+Context menus: Do not support item shortcuts and item icons.
+Options menus: The icon menus do not support item check marks and only show the item
+
+Different menu types support different features:
+
+Context menus: Do not support item shortcuts and item icons.
+Options menus: The icon menus do not support item check marks and only show the item's condensed title.
+Sub menus: Do not support item icons, or nested sub menus.
+        Android allows you to provide different resources for different devices. For example, you can create different layouts for different screen sizes. Then the system determines which layout to use based on the current device's screen size.
+
+If any of your app's features need specific hardware, such as a camera, you can query whether the device has that hardware at runtime and then disable the corresponding features if not. You can also set some features as required so Google Play won't allow installation on devices without them.
+
+After you build your first app, learn more about device configurations at Device Compatibility.
+
+    </string>
+</resources>
